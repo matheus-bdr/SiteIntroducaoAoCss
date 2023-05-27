@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="assets/logo_css_white.png"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="introducao_style.css" />
+    <title>Introdução CSS</title>
+  </head>
+  <body>
+    <header>
+      <div class="nav">
+        <img src="assets/ucb-logo.png" alt="logo ucb" />
+        <nav>
+          <a href="index.html">Introdução</a>
+          <a href="historia.html">História</a>
+          <a href="sintaxe.html">Sintaxe</a>
+          <a href="seletores.html">Seletores</a>
+        </nav>
+        <a href="formulario.html" class="button">Se inscreva</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="secao-principal">
+        <div class="container-row-reverse">
+          <img src="assets/logo_css.png" alt="logo CSS" />
+          <div>
+            <h1>Conheça mais sobre o <span>CSS</span></h1>
+            <p>
+              Descubra o poder do CSS: a linguagem de estilo que dá vida ao
+              design da web! Em nosso novo artigo, explicamos de forma clara e
+              concisa o que é o CSS, como ele funciona e por que é fundamental
+              para criar layouts incríveis. Explore as bases do CSS e desvende
+              suas propriedades, seletores e regras essenciais.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="secao-conceitos">
+        <div class="conceitos">
+          <article class="conceito-1">
+            <h2>O que é o CSS?</h2>
+            <div class="container">
+              <img src="assets/interrogacao.png" alt="interrogação" />
+              <div class="texto">
+                <ul>
+                  <li>CSS significa <i>Cascading Style Sheets</i>;</li>
+                  <li>
+                    CSS descreve como os elementos HTML devem ser exibidos na
+                    tela, no papel ou em outras mídias;
+                  </li>
+                  <li>
+                    CSS economiza muito trabalho. Ele pode controlar o layout de
+                    várias páginas da Web de uma só vez;
+                  </li>
+                  <li>
+                    Folhas de estilo externas são armazenadas em arquivos CSS.
+                  </li>
+
+                  <p>
+                    O CSS <i>(Cascading Style Sheets)</i> é a linguagem que
+                    estrutura que está voltada a página na Web, geralmente
+                    aplicada ao HTML, mas não confunda, CSS não é uma linguagem
+                    de programação
+                  </p>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <article class="conceito-2">
+            <h2>Por que usar o CSS?</h2>
+            <div class="container">
+              <div class="texto">
+                <p>
+                  O HTML não surgiu com intuito de conter TAGs para formatar
+                  páginas da internet. Com a complexidade das páginas web, o
+                  processo de manutenção ficou difícil. A W3C criou então o CSS,
+                  que remove a formatação das TAGs HTML.
+                </p>
+
+                <p>
+                  O CSS é usado para definir estilos para suas páginas da Web,
+                  incluindo design, layout e variações de exibição para
+                  diferentes dispositivos e tamanhos de tela.
+                </p>
+
+                <p>
+                  <strong>HTML:</strong> linguagem de marcação utilizada para
+                  estruturar os elementos da página, como parágrafos, links,
+                  títulos, tabelas, imagens e até vídeos
+                </p>
+
+                <p>
+                  <strong>CSS:</strong> linguagem de estilos utilizada para
+                  definir cores, fontes, tamanhos, posicionamento e qualquer
+                  outro valor estético para os elementos da página.
+                </p>
+
+                <p>
+                  Para ficar mais claro, vamos usar uma analogia. Comparando
+                  agora cada uma delas, podemos considerar o HTML como o
+                  esqueleto, composto dos ossos que dão sustentação. O CSS é a
+                  aparência, é o que cria o visual, o que realmente enxergamos
+                  por fora.
+                </p>
+              </div>
+            </div>
+
+            <div class="figure">
+              <figure>
+                <img
+                  src="assets/esqueleto_totoro.png"
+                  alt="totoro esqueleto"
+                  class="esqueleto"
+                />
+                <figcaption><i>HTML</i></figcaption>
+              </figure>
+
+              <figure>
+                <img src="assets/totoro.png" alt="totoro" />
+                <figcaption><i>CSS</i></figcaption>
+              </figure>
+            </div>
+          </article>
+
+          <article class="conceito-3">
+            <h2>CSS economiza muito trabalho!</h2>
+            <div class="container">
+              <img src="assets/css_file.png" alt="documento css" />
+
+              <div class="texto">
+                <p>
+                  As definições de estilo são normalmente salvas em arquivos
+                  .css externos. Com um arquivo de folha de estilo externo, você
+                  pode alterar a aparência de um site inteiro alterando apenas
+                  um arquivo!
+                </p>
+
+                <p>Para incluí-los na estrutura head do HTML:</p>
+
+                <p><strong>&lt;head&gt; </strong></p>
+                <p>
+                  &lt;link rel="stylesheet" type="text/css" href="reset.css"&gt;
+                </p>
+                <p>
+                  &lt;link rel="stylesheet" type="text/css"
+                  href="styles.css"&gt;
+                </p>
+                <p><strong>&lt;/head&gt;</strong></p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+      
+    </main>
+
+    <footer>
+      <div class="noticias-form">
+        <img src="assets/logo_css_white.png" alt="" />
+
+        <form action="#">
+          <label for="email">Receba materiais gratuitos no seu email</label>
+          <input
+            type="text"
+            name="email"
+            id="email"
+            placeholder="Digite seu e-mail"
+          />
+          <button class="button">Quero receber</button>
+        </form>
+      </div>
+
+      <!--<div class="linkedin">
+            <p>Desenvolvido por</p>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/tamilly-menezes/">Cris</a></li>
+            <li><a href="https://www.linkedin.com/in/matheuss-bdr/">Matheus</a></li>
+            <li><a href="https://www.linkedin.com/in/ryvvas/">Ryvvas</a></li>
+            <li><a href="https://www.linkedin.com/in/victor-andrade-hugo/">Victor</a></li>
+        </ul>
+        </div> -->
+    </footer>
+  </body>
+</html>

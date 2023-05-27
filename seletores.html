@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="assets/logo_css_white.png"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="introducao_style.css" />
+    <title>Seletores CSS</title>
+  </head>
+  <body>
+    <header>
+      <div class="nav">
+        <img src="assets/ucb-logo.png" alt="logo ucb" />
+        <nav>
+          <a href="index.html">Introdução</a>
+          <a href="historia.html">História</a>
+          <a href="sintaxe.html">Sintaxe</a>
+          <a href="seletores.html">Seletores</a>
+        </nav>
+        <a href="formulario.html" class="button">Se inscreva</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="secao-principal">
+        <div class="container">
+          <div>
+            <h1>Seletores de CSS</span></h1>
+            <div class="texto">
+                <p>
+                    Os seletores CSS são usados ​​para "encontrar" (ou selecionar) os elementos HTML que você deseja estilizar.
+                  </p>
+                  <p>Podemos dividir os seletores CSS em cinco categorias:</p>
+            <ul>
+              <li>Seletores simples (selecionar elementos com base no nome, id, classe)</li>
+              <li>Seletores de combinação (selecionam elementos com base em uma relação específica entre eles)</li>
+              <li>Seletores de pseudoclasse (selecionar elementos com base em um determinado estado)</li>
+              <li>Seletores de pseudoelementos (selecionar e estilizar uma parte de um elemento)</li>
+              <li>Seletores de atributo (selecionar elementos com base em um atributo ou valor de atributo)</li>
+            </ul>
+          </div>
+
+          <div class="figure">
+            <img src="assets/regras_css.png" alt="regras css">
+          </div>
+        </div>
+      </section>
+
+      <section class="secao-conceitos">
+        <div class="conceitos">
+          <article class="conceito-1">
+            <h2>O seletor de elemento CSS</h2>
+            <p>
+                O seletor de elemento seleciona elementos HTML com base no nome do elemento.
+          </p>
+          
+               
+                  
+            
+          </article>
+
+          <article class="conceito-2">
+            <h2>O seletor de id CSS</h2>
+            
+              
+                <p>
+                    O seletor id usa o atributo id de um elemento HTML para selecionar um elemento específico.
+                </p>
+
+                <p>
+                    O id de um elemento é único dentro de uma página, então o seletor de id é usado para selecionar um elemento único!
+                </p>
+
+                <p>
+                    Para selecionar um elemento com um id específico, escreva um caractere hash (#), seguido do id do elemento.
+                </p>
+
+          </article>
+
+          <article class="conceito-3">
+            <h2>O seletor de classe CSS</h2>
+           
+                <p>
+                    O seletor de classe seleciona elementos HTML com um atributo de classe específico.
+                </p>
+
+                <p>Para selecionar elementos com uma classe específica, escreva um caractere de ponto (.), seguido do nome da classe.</p>
+
+          </article>
+
+          
+          <article class="conceito-4">
+            <h2>O seletor universal de CSS</h2>
+           
+                <p>
+                    O seletor universal (*) seleciona todos os elementos HTML na página.
+                </p>
+
+                
+
+          </article>
+
+          
+          <article class="conceito-5">
+            <h2>O seletor de agrupamento de CSS</h2>
+           
+                <p>
+                    O seletor de agrupamento seleciona todos os elementos HTML com as mesmas definições de estilo.</p>
+
+                <p>Para agrupar seletores, separe cada seletor com uma vírgula: h1, h2, p .</p>
+
+                
+
+          </article>
+        
+      </section>
+      
+    </main>
+
+    <footer>
+      <div class="noticias-form">
+        <img src="assets/logo_css_white.png" alt="" />
+
+        <form action="#">
+          <label for="email">Receba materiais gratuitos no seu email</label>
+          <input
+            type="text"
+            name="email"
+            id="email"
+            placeholder="Digite seu e-mail"
+          />
+          <button class="button">Quero receber</button>
+        </form>
+      </div>
+
+      <!--<div class="linkedin">
+            <p>Desenvolvido por</p>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/tamilly-menezes/">Cris</a></li>
+            <li><a href="https://www.linkedin.com/in/matheuss-bdr/">Matheus</a></li>
+            <li><a href="https://www.linkedin.com/in/ryvvas/">Ryvvas</a></li>
+            <li><a href="https://www.linkedin.com/in/victor-andrade-hugo/">Victor</a></li>
+        </ul>
+        </div> -->
+    </footer>
+  </body>
+</html>

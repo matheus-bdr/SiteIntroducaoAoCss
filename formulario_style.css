@@ -1,0 +1,39 @@
+:root {
+  --cor-primaria: #1f2c73;
+  --cor-secundaria: #39bd84;
+  --cor-terciaria: #de0042;
+  --cor-preta: #000;
+  --cor-branca: #fcfcfc;
+  --cor-fonte: #010440;
+}
+
+h2 {
+  color: var(--cor-primaria);
+}
+
+.inscricao-form {
+  width: 50%;
+}
+
+.formulario {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.formulario label {
+  font-size: 1.25rem;
+}
+
+.formulario input,
+textarea {
+  border: 2px solid var(--cor-preta);
+  box-shadow: 4px 4px 0 var(--cor-preta);
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  width: 100%;
+}
